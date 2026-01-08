@@ -1,0 +1,8 @@
+git notes
+git -C "D:\repo\springboot\<repo_name>" remote set-url origin https://github.com/gnanasekart/spring-boot-course-registration-system.git
+git -C "D:\repo\springboot\<repo_name>" remote -v
+
+origin  https://github.com/gnanasekart/spring-boot-course-registration-system.git (fetch)
+origin  https://github.com/gnanasekart/spring-boot-course-registration-system.git (push)
+
+cd "D:\repo\springboot\spring-boot-course-registration-system" && git push --set-upstream origin master
